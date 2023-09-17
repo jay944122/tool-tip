@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Arial", sans-serif;
+  height: 100vh;
+  background: linear-gradient(60deg,purple,rgb(68, 68, 170),purple);
+
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+button {
+  padding: 10px 16px;
+  font-size: 16px;
+  background-color: #110f0e;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: linear-gradient(45deg,rgb(50, 50, 120),pink,purple);
+}
